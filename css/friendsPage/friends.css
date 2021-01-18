@@ -53,6 +53,21 @@
     z-index: 4;
     color:white;
 }
+@keyframes cloud{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform:translateY(-10px);
+        transform:scale(1.2);
+    }
+    100%{
+        transform: none;
+    }
+}
+#spl{
+    animation: cloud 1s ease-in-out forwards;
+}
 .nav__btn:hover{
     color: skyblue;
 }
